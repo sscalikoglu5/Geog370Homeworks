@@ -6,24 +6,52 @@
     <title>Projections</title>
 </head>
 <body>
-    <h1>In this project I learned how to display images in different projections</h1>
+    <h1>Homework 3 Serdar Calikoglu Geog 370</h1>
     
     <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>I displayed the map in different projections by using the indicatrix mapper plug in. Using this plug in, I searched the numbers for each of the projections and applied it to my natural earth map. This displayed each projection in which I exported the PNG and put them below.</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>In this projection I notice that the south and north pole have similar sized ellipses. One difference between these areas is that Anartica stretch across the map, while Greenland is smaller. It is hard to tell how each size of continents and land areas compare to one another</h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Aitoff Projection displays a map that is more spherical. We noticed this with how the ellipses in the poles are closer together and the ellipses across the map are further. I also notice how the lines are not straight between the shapes but are curved giving a shepherical shape to the map.</h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
     <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
     <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
     <p></p>
+
+    <p> ESPG:3857 Psuedo Mercator </p>
+       <a> <img src =".//maps/Geog370hw3.png" alt="Psuedo" width='500px' > </a>
+       <p> In the Pseudo Mercator map we see how the sizes of the land maps are disproportionate. Greenland is bigger then Africa and Anartica is the largest. This projection is also similar to the WGS84 projection where the lines are straight and display is flat.</p>
+
+    <p> ESRI:53018 Sphere Winkle </p>
+       <a> <img src =".//maps/Geog370HW3Sphere.png" alt="Sphere" width='500px' > </a>
+       <p> In the Sphere Winkle projection we notice that it is similar to the Aitoff projection. One difference I notice is that the grid and ellipses are more compact. This results in the land masses in the middle of the projection to be larger and the ones near the North Pole seem smaller.</p>
+
+    <p> ESRI:54034 World Cylindrical Equal Area </p>
+       <a> <img src =".//maps/HW3WorldCynlindrical.png" alt="Equal" width='500px' > </a>
+       <p> In the World Cylindrical Equal Area projection I see that the grid are squares rather than rectangles and rhombuses. This project a flat map and squeezes the land in the North and South poles to be very thin and hard to see.</p>
+    
+    <p> ESRI:54027 World Equidistant Conic </p>
+       <a> <img src =".//maps/ConicJawn.png" alt="Conic" width='500px' > </a>
+       <p> In the World Equidistant Conic projection we get a space view that is slightly under the North Pole of the world. I assume it is slightly under the North Pole because the top of the map is not connected and blank. As the grid centers the circles get more compact and smaller.</p>
+    
+       <p> ESRI:102016 North Pole Azimuthal Equidistant </p>
+        <a> <img src =".//maps/NorthPole.png" alt="North" width='500px' > </a>
+        <p> The North Pole Azimuthal Equidistant it is very similar to previous projection except the circles around the north pole are complete. This makes me think that the projection uses the North Pole as a place where it provides a space view of the world.</p>
+    <p> My Projection 1: ESRI:53014 Sphere Eckert II </p>
+        <p> The Sphere Eckert II projection is simliar to the Sphere Winkle and Aitoff projections except the lines are more rigid and create angles rather than curves. This makes the display pop towards us and has a slanted view of the display.</p>
+        <a> <img src =".//maps/MyProjection1.png" alt="North" width='500px' > </a>
+    <p> My Projection 2: ESPG:2163 US National Atlas Equal Area </p>
+        <a> <img src =".//maps/NA.png" alt="North" width='500px' > </a>
+        <p> The Sphere US National Atlas Equal Area Projection does a global space projection similar to the North Pole Azimuthal excpet that the view is based around North America. We can see how North America looks compared to the rest of the globe from a Satelite view.</p>
+
+   
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
 </body>
